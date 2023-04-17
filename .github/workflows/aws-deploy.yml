@@ -2,10 +2,10 @@ name: AWS Deploy
 
 on:
   workflow_dispatch:
-  # push:
-  #   paths:
-  #     - 'aws/**'
-  #     - '!aws/readme.md'
+  push:
+    paths:
+      - 'aws/**'
+      - '!aws/readme.md'
   
 env:
   FOLDERNAME: "aws"
